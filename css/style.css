@@ -1,0 +1,41 @@
+/* Configurações gerais */
+
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #2f3437;
+    background-color: #fffaf4;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    color: #244b45;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.2;
+}
+
+h1 {font-size: 42px;}
+
+h2 {font-size: 30px;}
+
+h3 {font-size: 21px;}
+
+p {margin-top: 0;}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.topo {
+    background-color: #ffffff;
+    border: solid 1px #244b45;
+    padding: 22px;
+}
