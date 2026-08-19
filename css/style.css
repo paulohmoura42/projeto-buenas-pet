@@ -10,23 +10,21 @@ body {
     color: #2f3437;
     background-color: #fffaf4;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
 }
 
 h1, h2, h3 {
     margin-top: 0;
     color: #244b45;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    line-height: 1.2;
 }
 
-h1 {font-size: 42px;}
+h1 {font-size: 36px;}
 
 h2 {font-size: 30px;}
 
 h3 {font-size: 21px;}
 
-p {margin-top: 0;}
+p {margin-top: 0%;}
 
 .container {
     width: 80%;
@@ -34,8 +32,161 @@ p {margin-top: 0;}
     margin: 0 auto;
 }
 
+.centro {
+    text-align: center;
+}
+
 .topo {
     background-color: #ffffff;
-    border: solid 1px #244b45;
-    padding: 22px;
+    border: solid 1px #dde9e5;
+    padding: 6px 0;
+}
+
+.logo {
+    display: inline-block;
+    width: 32%;
+    color: #244b45;
+    font-size: 32px;
+    font-weight: 700;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 48px;
+    vertical-align: middle;
+}
+
+.logo span {
+    color: #f28c79;
+}
+
+.menu {
+    display: inline-block;
+    width: 66%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 12px;
+    color: #244b45;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3ms;
+}
+
+.menu a:hover, .menu a.menu-atual {
+    background-color: #244b45;
+    color: #ffffff;
+}
+
+.banner {
+    min-height: 500px;
+    padding: 75px 0;
+    background-color: #ddeee7;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-conteudo {
+    width: 54%;
+    max-width: 580px;
+    padding: 35px;
+    background-color: #fff7ed;
+    border-left: solid 8px #f28c79;
+    border-radius: 16px;
+}
+
+.banner-conteudo p {
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+/* Textos e links */
+
+.texto-destaque {
+    margin-bottom: 8px;
+    color: #d86654;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.botao {
+    margin-top: 12px;
+    padding: 12px 20px;
+    color: #ffffff;
+    background-color: #f28c79;
+    border: solid 2px #f28c79;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3ms;
+}
+
+.botao:hover {
+    color: #f28c79;
+    background-color: #ffffff;
+}
+
+.secao {
+    padding: 65px 0;
+}
+
+.cartao {
+    min-height: 265px;
+    padding: 26px;
+}
+
+.cartao, .cartao-produto {
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+    background-color: #ffffff;
+    border: solid 2px #dde9e5;
+    border-radius: 16px;
+    vertical-align: middle;
+}
+
+.icone {
+    margin-bottom: 16px;
+    font-size: 36px;
+}
+
+/* ROTAPÉ */
+
+.rotape {
+    background-color: #244b45;
+    color: #ddeee7;
+    text-align: center;
+    padding: 38px 20px;
+}
+
+.rotape p {
+    margin-bottom: 6px;
+}
+
+.rotape img {
+    width: 48px;
+}
+
+.nome-rotape {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.copy {
+    color: #c99997;
+    font-size: 12px;
 }
