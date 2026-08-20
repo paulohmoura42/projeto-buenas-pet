@@ -40,6 +40,8 @@ p {margin-top: 0%;}
     background-color: #ffffff;
     border: solid 1px #dde9e5;
     padding: 6px 0;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -157,6 +159,7 @@ p {margin-top: 0%;}
     border: solid 2px #dde9e5;
     border-radius: 16px;
     vertical-align: middle;
+    padding-bottom: 20px;
 }
 
 .icone {
@@ -189,4 +192,85 @@ p {margin-top: 0%;}
 .copy {
     color: #c99997;
     font-size: 12px;
+}
+
+/* PRODUTOS */
+
+.info {
+    background-color: #dde9e5;
+    border-bottom: solid 6px #f28c79;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao-produto img {
+    width: 100%;
+    border-bottom: solid 6px #f28c79;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.cartao-produto p {
+    margin: 0%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.cartao-produto h3 {
+    margin: 0%;
+    padding-left: 20px;
+}
+
+.cartao-produto ul {
+    color: #244b45;
+}
+
+.botao-produto {
+    text-decoration: none;
+    font-weight: 700;
+    color: #f28c79;
+    transition: 0.3ms;
+    padding-left: 20px;
+}
+
+.botao-produto:hover {
+    text-decoration: 2px underline;
+}
+
+/* CONTATOS */
+
+.botao-contato {
+    font-weight: 700;
+    color: #f28c79;
+    text-decoration: none;
+    transition: 0.3ms;
+}
+
+.botao-contato:hover {
+    text-decoration: 2px underline;
+}
+
+/* SOBRE */
+
+.banner-sobre {
+    padding: 60px 0;
+    background-color: #ffffff;
+    
+}
+
+.banner-sobre-conteudo {
+    display: flex;
+    align-items: center;
+}
+
+.banner-sobre-conteudo img {
+    width: 30%;
+    border: solid 6px #dde9e5;
+    border-radius: 16px;
+}
+
+.texto-sobre {
+    padding: 0 50px;
 }
