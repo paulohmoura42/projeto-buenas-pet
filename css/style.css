@@ -278,6 +278,10 @@ p {margin-top: 0%;}
     .logo img {
         display: flex;
     }
+
+    .banner-conteudo {
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -305,6 +309,10 @@ p {margin-top: 0%;}
 
     .banner-conteudo {
         width: 100%;
+    }
+
+    .banner-conteudo a {
+        font-size: 12px;
     }
 
     .cartao {
