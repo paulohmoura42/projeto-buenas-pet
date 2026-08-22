@@ -257,7 +257,6 @@ p {margin-top: 0%;}
 .banner-sobre {
     padding: 60px 0;
     background-color: #ffffff;
-    
 }
 
 .banner-sobre-conteudo {
@@ -273,4 +272,59 @@ p {margin-top: 0%;}
 
 .texto-sobre {
     padding: 0 50px;
+}
+
+@media (max-width: 905px) {
+    .logo img {
+        display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    .topo {
+        position: relative;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+    .logo img {
+        display: flex;
+        width: 40px;
+    }
+
+    .menu li {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner {
+        background-position: right;
+    }
+
+    .banner-conteudo {
+        width: 100%;
+    }
+
+    .cartao {
+        width: 100%;
+    }
+
+    .cartao-produto {
+        width: 100%;
+    }
+
+    .banner-sobre-conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-sobre-conteudo img {
+        width: 100%;
+    }
+
+    .texto-sobre {
+        margin-top: 60px;
+    }
 }
