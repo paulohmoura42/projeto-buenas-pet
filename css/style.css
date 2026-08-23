@@ -205,6 +205,11 @@ p {margin-top: 0%;}
     align-items: center;
 }
 
+.info h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
 .cartao-produto img {
     width: 100%;
     border-bottom: solid 6px #f28c79;
@@ -290,17 +295,24 @@ p {margin-top: 0%;}
     }
 
     .logo {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .logo img {
         display: flex;
-        width: 40px;
+        width: 50px;
+    }
+
+    .menu {
+
     }
 
     .menu li {
         display: flex;
         flex-direction: column-reverse;
+        width: 70%;
+        position: relative;
+        left: 66px;
     }
 
     .banner {
@@ -315,6 +327,10 @@ p {margin-top: 0%;}
 
     .banner-conteudo a {
         font-size: 12px;
+    }
+
+    .banner-conteudo h1 {
+        font-size: 30px;
     }
 
     .cartao {
@@ -336,5 +352,14 @@ p {margin-top: 0%;}
 
     .texto-sobre {
         margin-top: 60px;
+    }
+
+    .texto-destaque {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .texto-sobre h2 {
+        text-align: center;
     }
 }
