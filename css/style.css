@@ -279,13 +279,34 @@ p {margin-top: 0%;}
     padding: 0 50px;
 }
 
-@media (max-width: 905px) {
-    .logo img {
+@media (max-width: 920px) {
+    .logo {
         display: flex;
     }
 
-    .banner-conteudo {
+    .menu {
+        display: flex;
         width: 100%;
+        justify-content: center;
+        
+    }
+
+    .cartao {
+        width: 200px;
+        height: 300px;
+    }
+
+    .botao-contato {
+        font-size: 10px
+    }
+
+    .cartao-produto {
+        width: 200px;
+        height: 500px;
+    }
+
+    .botao-produto {
+        font-size: 12px;
     }
 }
 
@@ -295,24 +316,14 @@ p {margin-top: 0%;}
     }
 
     .logo {
-        font-size: 30px;
-    }
-
-    .logo img {
+        margin: 10px auto;
         display: flex;
-        width: 50px;
+        justify-content: center;
     }
 
-    .menu {
-
-    }
-
-    .menu li {
+    .menu ul {
         display: flex;
-        flex-direction: column-reverse;
-        width: 70%;
-        position: relative;
-        left: 66px;
+        padding: 0;
     }
 
     .banner {
