@@ -167,6 +167,10 @@ p {margin-top: 0%;}
     font-size: 36px;
 }
 
+i {
+    color: #f28c79;
+}
+
 /* ROTAPÉ */
 
 .rotape {
@@ -209,6 +213,10 @@ p {margin-top: 0%;}
     font-size: 32px;
     margin-bottom: 8px;
 }
+
+/* .cartao-produto {
+    overflow: hidden;
+} */
 
 .cartao-produto img {
     width: 100%;
@@ -298,7 +306,7 @@ p {margin-top: 0%;}
     }
 
     .botao-contato {
-        font-size: 10px
+        font-size: 11px
     }
 
     .cartao-produto {
@@ -342,7 +350,11 @@ p {margin-top: 0%;}
     }
 
     .banner-conteudo h1 {
-        font-size: 30px;
+        font-size: 28px;
+    }
+
+    .container h2 {
+        font-size: 26px;
     }
 
     .cartao {
@@ -373,5 +385,17 @@ p {margin-top: 0%;}
 
     .texto-sobre h2 {
         text-align: center;
+    }
+
+    .botao-contato {
+        font-size: 16px;
+    }
+
+    .botao-produto {
+        font-size: 16px;
+    }
+
+    .info h1 {
+        font-size: 28px;
     }
 }
